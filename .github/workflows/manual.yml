@@ -1,7 +1,7 @@
 name: Greetings to AutomationStar
 
 on:
-  repository_dispatch:
+  workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
       name:
